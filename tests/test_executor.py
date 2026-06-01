@@ -5,9 +5,6 @@ from collections.abc import AsyncIterator
 import pytest
 from a2a.server.events import EventQueue
 from a2a.types import (
-    Message,
-    Part,
-    Role,
     TaskArtifactUpdateEvent,
     TaskState,
     TaskStatusUpdateEvent,
